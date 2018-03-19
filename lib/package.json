@@ -1,0 +1,23 @@
+{
+  "name": "wdio-json-output-reporter",
+  "version": "1.0.0",
+  "description": "wdio json output file reporter",
+  "main": "reporter.js",
+  "scripts": {
+    "lint": "eslint reporter.js"
+  },
+  "author": "vchin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vchin/wdio-json-output-reporter"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.21.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
