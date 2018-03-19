@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  lint:
+    docker:
+      - image: circleci/node:6.13
+    steps:
+      - checkout
+      - run:
+          command: |
+            cd lib
+            npm install
+            npm run lint
+workflows:
+  version: 2
+  work-it:
+    jobs:
+      - lint
