@@ -4,8 +4,7 @@
   "description": "",
   "main": "reporter.js",
   "scripts": {
-    "sample-test": "wdio wdio.conf.js",
-    "test": "test"
+    "sample-test": "wdio wdio.conf.js"
   },
   "keywords": [
     "wdio",

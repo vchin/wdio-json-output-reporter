@@ -2,7 +2,8 @@ const Reporter = require('./lib/reporter');
 
 exports.config = {
   specs: [
-    'test/sample-test.js'
+    'test/sample-test.js',
+    'test/sample-test-2.js'
   ],
   capabilities: [{
     browserName: 'chrome',

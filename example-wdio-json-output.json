@@ -1,0 +1,229 @@
+{
+  "stats": {
+    "suites": 10,
+    "tests": 14,
+    "hooks": 22,
+    "passes": 6,
+    "pending": 2,
+    "failures": 4,
+    "start": "2018-03-28T17:52:19.093Z",
+    "end": "2018-03-28T17:52:24.848Z",
+    "duration": 5755
+  },
+  "suites": [
+    {
+      "title": "file1",
+      "tests": [
+        {
+          "title": "f1 - test",
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "f1 - skipped test",
+          "result": "pending",
+          "err": {}
+        },
+        {
+          "title": "f1 - failing test",
+          "result": "failed",
+          "err": {
+            "message": "false == true",
+            "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test.js:7:40)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+            "type": "AssertionError [ERR_ASSERTION]",
+            "expected": true,
+            "actual": false
+          }
+        }
+      ],
+      "suites": [
+        {
+          "title": "f1 - nested suite",
+          "tests": [
+            {
+              "title": "f1 - nested test",
+              "result": "passed",
+              "err": {}
+            },
+            {
+              "title": "f1 - nested failing test",
+              "result": "failed",
+              "err": {
+                "message": "false == true",
+                "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test.js:11:49)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+                "type": "AssertionError [ERR_ASSERTION]",
+                "expected": true,
+                "actual": false
+              }
+            }
+          ],
+          "suites": []
+        },
+        {
+          "title": "f1 - nested suite 2",
+          "tests": [
+            {
+              "title": "f1 - nested test2",
+              "result": "passed",
+              "err": {}
+            }
+          ],
+          "suites": []
+        }
+      ],
+      "specHash": "e5d0d77310e3122ace427a3cfe8cb555"
+    },
+    {
+      "title": "file2",
+      "tests": [
+        {
+          "title": "f2 - test",
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "f2 - skipped test",
+          "result": "pending",
+          "err": {}
+        },
+        {
+          "title": "f2 - failing test",
+          "result": "failed",
+          "err": {
+            "message": "false == true",
+            "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test-2.js:7:40)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+            "type": "AssertionError [ERR_ASSERTION]",
+            "expected": true,
+            "actual": false
+          }
+        }
+      ],
+      "suites": [
+        {
+          "title": "f2 - nested suite",
+          "tests": [
+            {
+              "title": "f2 - nested test",
+              "result": "passed",
+              "err": {}
+            },
+            {
+              "title": "f2 - nested failing test",
+              "result": "failed",
+              "err": {
+                "message": "false == true",
+                "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test-2.js:11:49)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+                "type": "AssertionError [ERR_ASSERTION]",
+                "expected": true,
+                "actual": false
+              }
+            }
+          ],
+          "suites": []
+        },
+        {
+          "title": "f2 - nested suite 2",
+          "tests": [
+            {
+              "title": "f2 - nested test2",
+              "result": "passed",
+              "err": {}
+            }
+          ],
+          "suites": []
+        }
+      ],
+      "specHash": "98db0aeb50fa8f1296356d6400a3dcbc"
+    }
+  ],
+  "pending": [
+    {
+      "title": "f1 - skipped test",
+      "result": "pending",
+      "err": {}
+    },
+    {
+      "title": "f2 - skipped test",
+      "result": "pending",
+      "err": {}
+    }
+  ],
+  "failures": [
+    {
+      "title": "f1 - failing test",
+      "result": "failed",
+      "err": {
+        "message": "false == true",
+        "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test.js:7:40)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+        "type": "AssertionError [ERR_ASSERTION]",
+        "expected": true,
+        "actual": false
+      }
+    },
+    {
+      "title": "f2 - failing test",
+      "result": "failed",
+      "err": {
+        "message": "false == true",
+        "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test-2.js:7:40)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+        "type": "AssertionError [ERR_ASSERTION]",
+        "expected": true,
+        "actual": false
+      }
+    },
+    {
+      "title": "f1 - nested failing test",
+      "result": "failed",
+      "err": {
+        "message": "false == true",
+        "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test.js:11:49)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+        "type": "AssertionError [ERR_ASSERTION]",
+        "expected": true,
+        "actual": false
+      }
+    },
+    {
+      "title": "f2 - nested failing test",
+      "result": "failed",
+      "err": {
+        "message": "false == true",
+        "stack": "AssertionError [ERR_ASSERTION]: false == true\n    at Context.it (P:\\nodejs\\wdio-json-output-reporter\\test\\sample-test-2.js:11:49)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:590:26\n    at new Promise (<anonymous>)\n    at new F (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\core-js\\library\\modules\\_export.js:35:28)\n    at Context.executeSync (P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:588:12)\n    at P:\\nodejs\\wdio-json-output-reporter\\node_modules\\wdio-sync\\build\\index.js:759:42",
+        "type": "AssertionError [ERR_ASSERTION]",
+        "expected": true,
+        "actual": false
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "f1 - test",
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "f2 - test",
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "f1 - nested test",
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "f2 - nested test",
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "f1 - nested test2",
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "f2 - nested test2",
+      "result": "passed",
+      "err": {}
+    }
+  ]
+}

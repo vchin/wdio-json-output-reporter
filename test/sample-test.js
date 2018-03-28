@@ -1,13 +1,17 @@
 const assert = require('assert');
 
-describe('test suite', () => {
+describe('file1', () => {
 
-  it('test', () => null);
-  it.skip('skipped test', () => null);
-  it('failing test', () => assert.ok(false));
+  it('f1 - test', () => null);
+  it.skip('f1 - skipped test', () => null);
+  it('f1 - failing test', () => assert.ok(false));
 
-  describe('nested suite', () => {
-    it('nested test', () => null);
-    it('nested failing test', () => assert.ok(false));
+  describe('f1 - nested suite', () => {
+    it('f1 - nested test', () => null);
+    it('f1 - nested failing test', () => assert.ok(false));
+  });
+
+  describe('f1 - nested suite 2', () => {
+    it('f1 - nested test2', () => null);
   });
 });
